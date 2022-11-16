@@ -1,0 +1,10 @@
+﻿<configuration>
+     <input>
+         <net-file value="map.net.xml"/> 		
+         <additional-files value="map.add.xml"/>
+         <route-files value="map.trips.xml"/>
+     </input>
+     <processing>
+        <ignore-route-errors value="true"/>
+     </processing>
+ </configuration>

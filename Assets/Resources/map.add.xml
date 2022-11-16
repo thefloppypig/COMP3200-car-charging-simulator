@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/07/19 18:38:58 by Eclipse SUMO polyconvert Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <osm-files value="map.osm"/>
+        <type-file value="typemap.xml"/>
+    </input>
+
+    <output>
+        <output-file value="map.poly.xml"/>
+    </output>
+
+    <processing>
+        <poi-layer-offset value="5"/>
+    </processing>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+    <vType id="ev" length="4.5" accel="3.5" decel="2.2" maxSpeed="100.0" sigma="0.5" minGap="2.5" color="1,1,1" latAlignment="center" lcSublane="10">
+        <param key="has.rerouting.device" value="true"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="actualBatteryCapacity" value="1500"/>
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="1000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/>      
+    </vType>
+</additional>
